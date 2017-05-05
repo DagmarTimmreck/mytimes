@@ -1,7 +1,15 @@
+* {
+  border: black solid 1px;
+}
+
 header {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 10;
+  width: 100%;
+  background-color: white;
   border-bottom: black solid 1px;
   font-family: Verdana;
   font-size: 14px;
@@ -25,4 +33,28 @@ nav li {
 
 a {
   color: black;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1232px;
+  margin: 100px auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
