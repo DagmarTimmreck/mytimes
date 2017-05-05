@@ -23,9 +23,17 @@ header {
   padding: 10px;
 }
 
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  padding-left: 20px;
+}
+
 nav li {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
 }
 
 a {
@@ -142,4 +150,26 @@ p {
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.mytimes {
+  display: inline-block;
+  padding-right: 20px;
+  border-right: solid 2px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
