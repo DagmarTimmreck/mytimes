@@ -6,6 +6,7 @@ header {
   justify-content: space-between;
   z-index: 10;
   width: 100%;
+  padding: 10px 0;
   background-color: white;
   border-bottom: black solid 1px;
   font-family: Verdana;
@@ -16,6 +17,7 @@ header {
 #logo {
   display: inline-flex;
   align-items: center;
+  padding-left: 30px;
   color: MediumAquamarine;
 }
 
@@ -25,6 +27,7 @@ header {
 
 nav {
   display: inline-block;
+  padding-right: 40px;
 }
 
 nav ul {
@@ -44,7 +47,7 @@ main {
   display: flex;
   justify-content: space-between;
   width: 1232px;
-  margin: 100px auto;
+  margin: 120px auto 80px auto;
 }
 
 .column {
@@ -73,6 +76,7 @@ article {
   display: flex;
   flex-direction: column;
   width: 300px;
+  margin-bottom: 30px;
 }
 
 #main-article {
@@ -84,6 +88,7 @@ h1 {
   font-weight: bold;
   font-size: 30px;
   color: black;
+  margin: 0;
 }
 
 .picture-heading {
